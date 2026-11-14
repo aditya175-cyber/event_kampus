@@ -1,4 +1,4 @@
-# Aplikasi Pengelolaan Lomba & Kegiatan Ormawa Kampus
+# Website Pengelolaan Lomba & Kegiatan Kampus
 
 Kelompok 6 · Topik 5 · Sistem Basis Data 1
 Backend: PHP Native (PDO) + MySQL · Frontend: HTML, CSS, JavaScript biasa
@@ -35,7 +35,7 @@ KELOMPOK6/
    Hanya ada **satu database**. Dua file itu diimport ke database yang sama.
 3. Taruh folder `KELOMPOK6` di `C:\xampp\htdocs\`.
 4. Cek backend: buka `http://localhost/KELOMPOK6/backend/login.php`. Respon `{"error":"Gunakan metode POST"}` berarti backend hidup.
-5. Buka aplikasi: `http://localhost/KELOMPOK/frontend/` lalu login.
+5. Buka aplikasi: `http://localhost/KELOMPOK6/frontend/` lalu login.
 
 Kalau MySQL memakai password, ubah di `backend/config.php` (baris `new PDO`).
 Di luar kelas, isi rahasia token lewat environment `APP_SECRET` (bawaan di `config.php` hanya untuk belajar).

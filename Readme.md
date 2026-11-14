@@ -3,7 +3,7 @@
 Kelompok 6 · Topik 5 · Sistem Basis Data 1
 Backend: PHP Native (PDO) + MySQL · Frontend: HTML, CSS, JavaScript biasa
 
-Fungsi: mengelola kegiatan/lomba ormawa, pendaftaran peserta, jadwal sesi, dan pembayaran pendaftaran (CRUD + pencarian), dengan login berbasis peran (admin, ormawa, peserta).
+Fungsi: mengelola kegiatan/lomba ormawa, pendaftaran peserta, jadwal sesi, dan pembayaran pendaftaran (CRUD + pencarian), dengan login berbasis peran (admin, peserta).
 
 ## Struktur folder
 
@@ -45,7 +45,6 @@ Di luar kelas, isi rahasia token lewat environment `APP_SECRET` (bawaan di `conf
 | Username | Password | Peran |
 |---|---|---|
 | `admin` | `admin123` | admin |
-| `bem` | `bem123` | ormawa (BEM) |
 | `2024001` | `andi123` | peserta (Andi) |
 
 Ganti atau hapus akun ini sebelum dipakai di luar demo. Peserta baru bisa membuat akun sendiri lewat halaman **Daftar akun** (username = NIM).
